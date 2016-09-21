@@ -1,0 +1,53 @@
+<?php
+
+/** Enable W3 Total Cache */
+
+define('WP_CACHE', true); // Added by W3 Total Cache
+
+
+
+
+// ** MySQL settings ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'rutterassociate_hr5x_xwgbxsexobj');
+
+/** MySQL database username */
+define('DB_USER', 'gcewlullxysomrqf');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'yCgvLL8fjwYrJVT');
+
+/** MySQL hostname */
+define('DB_HOST', 'rutterassociates.purehostmysql.com');
+
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
+
+define('AUTH_KEY',         ',R-,$Gu;]~B&n?kYn{n<I;I7X-uT9{{Jp<J@3(E~<FfpB1glkIz$3Qo0)TaY+]9v');
+define('SECURE_AUTH_KEY',  'VsPrm}f2FWV^j8jsj9r_Y #Rh,`o/+cf*O$xU,@`-A 1/2i({1D#.j+66{GN gB7');
+define('LOGGED_IN_KEY',    'q|6;::pRNXKmU>sAuh K|J)TbA(i?G>bLa+TNqtc38U<G)9b.fZVjvU ]5&H4-om');
+define('NONCE_KEY',        '`vmb=9J^|[^p.67U;f)5$.A2tHP$UI}aJ`803W+3J;1kBB0@[p(/ai zOyPUnn( ');
+define('AUTH_SALT',        '-ESfrY96d@u}1V`bdcRm/qnp7;|z[JTcTI~ZLcd)|) C7T6H$UB(la(e[ 61gOy%');
+define('SECURE_AUTH_SALT', '|pLOn:F|*19i_ 2Z!w-trdW2:dJ<pc3`N$}Y42W gC]Du:B.o^ms})iKe-YX.50%');
+define('LOGGED_IN_SALT',   '8M30(t@0BcR9%vw+sP1JkV+!we=RKn-LEFzyb7|tg1gh?lRo|-t; +0^!Yxb41*2');
+define('NONCE_SALT',       'yViqDN^7x0m[T^P7+%-y;z]=u` ]_3a>F_,3)~ 4.p`czs_Z$7|57zUngxkE<$`r');
+
+
+$table_prefix = 'hr5x_';
+
+
+
+
+
+/* That's all, stop editing! Happy blogging. */
+
+/** Absolute path to the WordPress directory. */
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
+
+/** Sets up WordPress vars and included files. */
+require_once(ABSPATH . 'wp-settings.php');
+define('FS_METHOD', 'direct');
